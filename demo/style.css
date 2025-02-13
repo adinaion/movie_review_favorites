@@ -1,0 +1,118 @@
+body {
+    background-color: pink;
+    font-family: cursive;
+    font-size:large;
+}
+
+.footer {
+    color: aliceblue;
+    background-color: rgb(19, 82, 201);
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.container {
+    background-color: rgb(240, 135, 240);
+    padding: 30px;
+    margin-top: 10%;
+    text-align: center;
+    color: rgb(19, 82, 201);
+    text-shadow: 2px 2px 10px rgb(39, 224, 209),
+        2px 2px 10px rgb(39, 224, 209),
+        2px 2px 10px rgb(39, 224, 209),
+        2px 2px 10px rgb(39, 224, 209);
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container>.btn {
+    margin-top: 3%;
+    padding: 3% 5%;
+    font-size: 150%;
+    text-shadow: 2px 2px 10px rgb(216, 20, 111),
+        2px 2px 10px rgb(216, 20, 111),
+        2px 2px 10px rgb(216, 20, 111),
+        2px 2px 10px rgb(216, 20, 111);
+    border: 6px dashed rgb(236, 54, 166);
+}
+
+.row>.col-lg-3 {
+    margin: 3%;
+}
+
+.card-body,
+.row>.col-lg-8 {
+    background-color: rgb(102, 211, 211);
+    text-shadow: 2px 2px 10px white,
+        2px 2px 10px white,
+        2px 2px 10px rgb(216, 20, 111),
+        2px 2px 10px rgb(216, 20, 111);
+    color: rgb(104, 7, 64);
+}
+
+.contact {
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: justify;
+    color: rgb(104, 7, 64);
+    text-shadow: 2px 2px 10px white,
+        2px 2px 10px white,
+        2px 2px 10px rgb(216, 20, 111),
+        2px 2px 10px rgb(216, 20, 111);
+    width: 30em;
+    margin-top: 3%;
+    border: 10px dotted rgb(241, 46, 209);
+}
+
+.contact>img {
+    float: right;
+    width: 10em;
+    margin-left: 5%;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .container {
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+
+    .contact {
+        width: 15em;
+    }
+
+    .img {
+        float: none;
+    }
+
+}
+
+.row {
+    margin-top: 2%;
+}
+
+.col-lg-8 {
+    text-align: start;
+}
+
+.col-lg-4 {
+    align-self: center;
+}
+
+strong {
+    font-size: larger;
+}
+
+.active {
+    font-size:larger;
+    text-shadow: 2px 2px 10px white,
+        2px 2px 10px white,
+        2px 2px 10px rgb(216, 20, 111),
+        2px 2px 10px rgb(216, 20, 111);
+}
