@@ -1,6 +1,6 @@
-# Movie Review and Favorites App
+# Movie Review and Favorites App 🎬
 
-Welcome to the **Movie Review and Favorites App**! 🎬 This web application allows users to browse, review, and manage their favorite movies. Built using HTML, CSS, PHP, and MySQL, the app offers a beautiful and user-friendly interface for movie lovers to explore detailed movie information and share their thoughts with others.
+Welcome to the **Movie Review and Favorites App**! This web application allows users to browse, review, and manage their favorite movies. Built using HTML, CSS, PHP, and MySQL, the app offers a beautiful and user-friendly interface for movie lovers to explore detailed movie information and share their thoughts with others.
 
 ### Features:
 - **Browse Movies**: View a selection of movies with detailed information such as title, description, director, actors, and duration.
