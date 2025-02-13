@@ -36,10 +36,10 @@ To run this project on your local machine:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/adinaion/movie-review-favorites.git
+   git clone https://github.com/adinaion/movie_review_favorites.git
 2. Navigate to the project folder:
    ```bash
-   cd movie-review-favorites
+   cd movie_review_favorites
 3. Set up a local server using **Local by Flywheel**.
    ```bash
    The server and database should be running on Local by Flywheel.
